@@ -18,7 +18,7 @@ The_Selfish_Gene/
 ├── en/ (English version)
 │   ├── Author_Richard_Dawkins.md
 │   ├── Overall_Structure.md
-│   ├── Reading_Notes.md
+│   ├── AI_Reading_Notes.md
 │   └── structure/
 │       ├── Chapter1_Why_Are_People.md
 │       ├── Chapter2_The_Replicators.md
@@ -35,7 +35,7 @@ The_Selfish_Gene/
 │       └── Chapter13_The_Long_Reach_of_the_Gene.md
 └── jp/ (Japanese version - to be created later)
     ├── 全体構成.md
-    ├── 読書メモ.md
+    ├── AI読書メモ.md
     ├── 著者_リチャードドーキンス.md
     └── 構成/
         └── [Japanese chapter files]
@@ -72,7 +72,7 @@ The book contains 13 chapters covering:
 ## Usage Instructions
 - Start reading from the Overall_Structure.md file for a complete chapter overview
 - Each chapter file provides focused summaries suitable for review
-- Reading_Notes.md can be used for personal observations and insights
+- AI_Reading_Notes.md contains AI-generated analysis and observations
 - Author information is available in the Author_Richard_Dawkins.md file
 
 ## Notes for Claude
