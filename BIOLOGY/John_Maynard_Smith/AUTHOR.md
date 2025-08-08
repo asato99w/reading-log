@@ -36,6 +36,7 @@ John Maynard Smith (1920-2004) was a British evolutionary biologist and genetici
 
 ### Books in This Collection
 - **Evolution and the Theory of Games** (1982) - Comprehensive treatment of game theory in evolution
+- **On Evolution** (1972) - Popular introduction to evolutionary theory with mathematical approach
 
 ### Other Notable Works
 - **The Theory of Evolution** (1958, revised 1975) - Classic textbook on evolutionary theory

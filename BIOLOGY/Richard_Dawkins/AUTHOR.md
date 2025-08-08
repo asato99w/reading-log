@@ -34,6 +34,7 @@ Richard Dawkins is a British evolutionary biologist, ethologist, and author, bor
 - **The Selfish Gene** (1976) - His groundbreaking work on gene-centered evolution
 - **The Extended Phenotype** (1982) - Academic development of gene-centered theory
 - **The Blind Watchmaker** (1986) - Defense of evolution against design arguments
+- **River Out of Eden** (1995) - Poetic exploration of genetic information and evolution
 - **The Greatest Show on Earth** (2009) - Comprehensive presentation of evidence for evolution
 
 ### Other Notable Works
