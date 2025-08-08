@@ -1,0 +1,62 @@
+# Richard Dawkins
+
+## Biography
+Richard Dawkins is a British evolutionary biologist, ethologist, and author, born on March 26, 1941, in Nairobi, Kenya. He is widely regarded as one of the most influential science communicators and evolutionary theorists of the late 20th and early 21st centuries.
+
+## Academic Background
+- **Education**: Balliol College, Oxford (BA in Zoology, 1962; MA, DPhil, 1966)
+- **Career**: Fellow of New College, Oxford (1970-1996)
+- **Position**: Charles Simonyi Professor for the Public Understanding of Science at Oxford University (1995-2008)
+- **Current**: Professor Emeritus at Oxford University
+
+## Major Contributions to Science
+
+### Gene-Centered Evolution
+- Popularized the gene-centered view of evolution
+- Argued that genes, not individuals or groups, are the primary units of selection
+- Developed the concept of the "extended phenotype"
+
+### Meme Theory
+- Coined the term "meme" in 1976 in "The Selfish Gene"
+- Proposed memes as cultural units of transmission analogous to genes
+- Laid groundwork for the field of memetics
+
+### Evolutionary Stable Strategies
+- Applied game theory to evolutionary biology
+- Explained seemingly altruistic behavior through genetic self-interest
+- Advanced understanding of animal behavior evolution
+
+## Major Works
+- **The Selfish Gene** (1976) - His groundbreaking work on gene-centered evolution
+- **The Extended Phenotype** (1982) - Extended his gene-centered view
+- **The God Delusion** (2006) - Critique of religion from scientific perspective
+- **The Greatest Show on Earth** (2009) - Evidence for evolution
+- **The Magic of Reality** (2011) - Science book for young readers
+
+## Awards and Recognition
+- Fellow of the Royal Society (1984)
+- Royal Society of Literature Award (1987)
+- International Cosmos Prize (1997)
+- Kistler Prize (2001)
+- Nierenberg Prize (2009)
+
+## Writing Style and Approach
+Dawkins is known for his clear, accessible writing that makes complex scientific concepts understandable to general audiences. He combines rigorous scientific argument with vivid metaphors and examples.
+
+## Controversies and Debates
+- Strong advocate for atheism and critic of religion
+- Debates over group selection vs. gene-centered selection
+- Discussions about genetic determinism and free will
+- Public disagreements with other evolutionary biologists
+
+## Impact on Popular Science
+- Transformed public understanding of evolution
+- Influenced countless other science writers and communicators
+- Bridged the gap between academic research and popular understanding
+- Sparked widespread interest in evolutionary psychology and sociobiology
+
+## Key Concepts Associated with Dawkins
+- **Selfish genes**: Genes that promote their own survival and reproduction
+- **Memes**: Units of cultural transmission
+- **Extended phenotype**: Effects of genes beyond the individual organism
+- **Universal Darwinism**: Application of evolutionary principles beyond biology
