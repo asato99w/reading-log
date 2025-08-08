@@ -32,10 +32,11 @@ Richard Dawkins is a British evolutionary biologist, ethologist, and author, bor
 
 ### Books in This Collection
 - **The Selfish Gene** (1976) - His groundbreaking work on gene-centered evolution
+- **The Extended Phenotype** (1982) - Academic development of gene-centered theory
 - **The Blind Watchmaker** (1986) - Defense of evolution against design arguments
+- **The Greatest Show on Earth** (2009) - Comprehensive presentation of evidence for evolution
 
 ### Other Notable Works
-- **The Extended Phenotype** (1982) - Extended his gene-centered view
 - **Climbing Mount Improbable** (1996) - Evolution of complex biological structures
 - **The Ancestor's Tale** (2004) - Journey through evolutionary history
 - **The God Delusion** (2006) - Critique of religion from scientific perspective
