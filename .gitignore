@@ -1,0 +1,29 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# Personal notes that shouldn't be shared
+**/personal_notes.md
+**/private_*.md
+
+# Backup files
+*.bak
+*.backup
+
+# Editor specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# System files
+.directory
