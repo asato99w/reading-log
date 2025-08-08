@@ -1,6 +1,6 @@
 # Scientific Reading Log Repository
 
-このリポジトリは、科学書の読書記録、要約、感想を体系的にまとめるための読書記録システムです。分野別に整理され、英語・日本語の二言語対応で構築されています。
+このリポジトリは、科学書の読書記録、要約、感想を体系的にまとめるための読書記録システムです。著者別に整理され、英語・日本語の二言語対応で構築されています。
 
 ## リポジトリ構造
 
@@ -8,29 +8,54 @@
 reading_log/
 ├── README.md              # このファイル
 ├── CLAUDE.md              # Claude Code用の設定ファイル
-└── BIOLOGY/               # 生物学・生命科学
-    ├── The_Song_of_the_Cell--細胞の歌/
-    │   ├── en/            # 英語版
-    │   │   ├── Author_Siddhartha_Mukherjee.md
-    │   │   ├── Overall_Structure.md
-    │   │   ├── Reading_Notes.md
-    │   │   └── structure/ # 章別要約
-    │   └── jp/            # 日本語版
-    │       ├── 全体構成.md
-    │       ├── 読書メモ.md
-    │       ├── 著者_シッダールタムカジー.md
-    │       └── 構成/      # 章別詳細
-    └── The_Beautiful_Cure--美しき免疫の力/
-        ├── CLAUDE.md      # 書籍固有の設定
-        ├── README.md      # 書籍固有の説明
-        ├── en/            # 英語版
-        └── jp/            # 日本語版
+├── BIOLOGY/               # 生物学・生命科学
+│   ├── Richard_Dawkins/   # 著者別整理
+│   │   ├── AUTHOR.md      # 著者情報統合ファイル
+│   │   ├── The_Selfish_Gene--利己的な遺伝子/
+│   │   │   ├── CLAUDE.md
+│   │   │   ├── README.md
+│   │   │   ├── en/        # 英語版
+│   │   │   │   ├── Author_Richard_Dawkins.md  # 書籍執筆時期の情報
+│   │   │   │   ├── Overall_Structure.md
+│   │   │   │   ├── Reading_Notes.md
+│   │   │   │   └── structure/  # 章別要約
+│   │   │   └── jp/        # 日本語版
+│   │   │       ├── 全体構成.md
+│   │   │       ├── 読書メモ.md
+│   │   │       ├── 著者_リチャードドーキンス.md
+│   │   │       └── 構成/  # 章別詳細
+│   │   └── The_Blind_Watchmaker--盲目の時計職人/
+│   ├── John_Maynard_Smith/
+│   │   ├── AUTHOR.md      # 著者情報統合ファイル
+│   │   └── Evolution_and_the_Theory_of_Games--進化とゲーム理論/
+│   ├── Daniel_Davis/
+│   │   ├── AUTHOR.md      # 著者情報統合ファイル
+│   │   └── The_Beautiful_Cure--美しき免疫の力/
+│   └── Siddhartha_Mukherjee/
+│       ├── AUTHOR.md      # 著者情報統合ファイル
+│       └── The_Song_of_the_Cell--細胞の歌/
+└── ECONOMY/               # 経済学
+    ├── Alvin_Roth/
+    │   ├── AUTHOR.md      # 著者情報統合ファイル
+    │   └── Who_Gets_What--誰が何を手に入れるのか/
+    ├── Ariel_Rubinstein/
+    │   ├── AUTHOR.md      # 著者情報統合ファイル
+    │   └── Economic_Fables--ルービンシュタイン_ゲーム理論の力/
+    └── von_Neumann_Morgenstern/
+        ├── AUTHOR.md      # 著者情報統合ファイル
+        └── Theory_of_Games_and_Economic_Behavior--ゲームの理論と経済行動/
 ```
 
 ## 機能と特徴
 
+### 著者別分類システム
+- **著者ディレクトリ**: 各著者の全著作を一箇所に整理
+- **AUTHOR.md**: 著者の包括的情報（経歴、貢献、主要著作）
+- **書籍固有の著者ファイル**: その書籍執筆前後の特筆すべき情報
+
 ### 分野別分類
 - **BIOLOGY**: 生物学・生命科学関連の書籍
+- **ECONOMY**: 経済学・ゲーム理論関連の書籍
 - 今後追加予定: PHYSICS（物理学）、CHEMISTRY（化学）など
 
 ### 二言語対応
@@ -46,10 +71,11 @@ reading_log/
 ## 使い方
 
 ### 読書用
-1. `全体構成.md` で書籍全体の概要を把握
-2. `著者_[名前].md` で著者背景を理解  
-3. 章ファイルを順次読み進める、または関心のある章から
-4. `読書メモ.md` で個人的な所感を記録
+1. 著者ディレクトリの `AUTHOR.md` で著者の全体像を把握
+2. `全体構成.md` で書籍全体の概要を理解
+3. `著者_[名前].md` でその書籍執筆時期の背景を確認  
+4. 章ファイルを順次読み進める、または関心のある章から
+5. `読書メモ.md` で個人的な所感を記録
 
 ### 研究用
 - 章を横断してトピック検索
@@ -74,21 +100,29 @@ reading_log/
 
 ### BIOLOGY（生物学・生命科学）
 
-#### 『細胞の歌』（The Song of the Cell） - シッダールタ・ムカジー
-- **構成**: 6部21章 + エピローグ
-- **主な内容**: 細胞生物学の発見史から現代医療応用まで
-  - 細胞の発見史（フック、レーウェンフック）
-  - 現代細胞医療（IVF、遺伝子編集、免疫療法）  
-  - パンデミックとmRNAワクチン
-  - がんの進化的理解と新治療法
+#### Richard Dawkins (リチャード・ドーキンス)
+- **The Selfish Gene (利己的な遺伝子)** - 遺伝子中心の進化論の古典
+- **The Blind Watchmaker (盲目の時計職人)** - 創造論への反駁と自然選択の力
 
-#### 『美しき免疫の力』（The Beautiful Cure） - ダニエル・M・デイヴィス
-- **構成**: 2部8章
-- **主な内容**: 免疫学の革命的発見とその医学的応用
-  - 免疫学の科学革命（樹状細胞、制御性T細胞）
-  - 免疫チェックポイント阻害剤（ノーベル賞受賞研究）
-  - 心と免疫の関係（精神神経免疫学）
-  - 未来の免疫療法（CAR-T、個別化治療）
+#### John Maynard Smith (ジョン・メイナード・スミス)
+- **Evolution and the Theory of Games (進化とゲーム理論)** - 進化ゲーム理論の基礎
+
+#### Daniel M. Davis (ダニエル・M・デイヴィス)
+- **The Beautiful Cure (美しき免疫の力)** - 現代免疫学の革命と医学的応用
+
+#### Siddhartha Mukherjee (シッダールタ・ムカジー)
+- **The Song of the Cell (細胞の歌)** - 細胞生物学の発見史から現代医療まで
+
+### ECONOMY（経済学）
+
+#### Alvin E. Roth (アルビン・E・ロス)
+- **Who Gets What — and Why (誰が何を手に入れるのか)** - マーケットデザインとマッチング理論
+
+#### Ariel Rubinstein (アリエル・ルービンシュタイン)
+- **Economic Fables (ゲーム理論の力)** - ゲーム理論の批判的検討と経済モデルの限界
+
+#### John von Neumann & Oskar Morgenstern (フォン・ノイマン&モルゲンシュテルン)
+- **Theory of Games and Economic Behavior (ゲームの理論と経済行動)** - ゲーム理論の古典的基礎
 
 ## ライセンス
 
