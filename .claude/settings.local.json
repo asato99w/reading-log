@@ -3,7 +3,9 @@
     "allow": [
       "Bash(mkdir:*)",
       "WebFetch(domain:global.oup.com)",
-      "WebFetch(domain:www.openbookpublishers.com)"
+      "WebFetch(domain:www.openbookpublishers.com)",
+      "Bash(find:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }
