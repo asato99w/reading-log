@@ -67,6 +67,38 @@ Each chapter file contains:
 5. When reorganizing, maintain existing content integrity
 6. Always commit and push changes to GitHub after major modifications
 
+## CRITICAL: Required Files for Each Book
+Each book MUST have these files in the exact structure:
+```
+[Book_English_Title--Japanese_Title]/
+├── CLAUDE.md           # Book-specific instructions
+├── README.md           # Book overview (bilingual)
+├── en/                 # English content
+│   ├── AI_Reading_Notes.md     # AI-generated notes
+│   ├── Author_[Name].md        # Author context for this book
+│   ├── Overall_Structure.md    # Book structure overview
+│   └── structure/              # Chapter files
+│       └── Chapter[N]_[Title].md
+└── jp/                 # Japanese content
+    ├── AI読書メモ.md
+    ├── 著者_[Name].md
+    ├── 全体構成.md
+    └── 構成/
+        └── 第[N]章_[タイトル].md
+```
+
+## File Creation Order
+When creating a new book entry:
+1. Create directory with format: `English_Title--Japanese_Title/`
+2. Create CLAUDE.md with book-specific guidance
+3. Create README.md with bilingual book overview
+4. Create English version files first:
+   - Overall_Structure.md
+   - Author_[Name].md
+   - AI_Reading_Notes.md (if applicable)
+   - structure/ directory with chapter files
+5. Then create Japanese version with same content structure
+
 ## Current Authors and Books
 ### BIOLOGY
 - Richard Dawkins: The Selfish Gene, The Blind Watchmaker
